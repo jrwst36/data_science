@@ -1,2 +1,4 @@
 # Home Credit Default Risk
 [Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk) is a competition hosted by Kaggle. This repository is my final solution to this competition.
+
+The data consist of primary train/test sets and six supplemental data sets. These data sets can be found [here](https://www.kaggle.com/c/home-credit-default-risk/data). Part of this competition's challenge is to properly and effectively integrate the supplemental data with the primary data sets. Due to the nature of the data, there is a large amount of missing data. While preparing the data, I impute many of the missing values. However, some of the missing data is difficult to impute or it just doesn't make sense to impute. For this reason, I choose to work with XG Boost, an estimator that can handle missing data. 
