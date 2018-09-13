@@ -1,4 +1,9 @@
 # Home Credit Default Risk
-[Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk) is a competition hosted by Kaggle. This repository is my final solution to this competition.
+[Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk) is a competition hosted by Kaggle. This repository is my final solution to this competition. Below is a description from the competition page.
+> Many people struggle to get loans due to insufficient or non-existent credit histories. And, unfortunately, this population is often taken advantage of by untrustworthy lenders.
+>
+>Home Credit strives to broaden financial inclusion for the unbanked population by providing a positive and safe borrowing experience. In order to make sure this underserved population has a positive loan experience, Home Credit makes use of a variety of alternative data--including telco and transactional information--to predict their clients' repayment abilities.
+>
+>While Home Credit is currently using various statistical and machine learning methods to make these predictions, they're challenging Kagglers to help them unlock the full potential of their data. Doing so will ensure that clients capable of repayment are not rejected and that loans are given with a principal, maturity, and repayment calendar that will empower their clients to be successful.
 
 The data consist of primary train/test sets and six supplemental data sets. These data sets can be found [here](https://www.kaggle.com/c/home-credit-default-risk/data). Part of this competition's challenge is to properly and effectively integrate the supplemental data with the primary data sets. Due to the nature of the data, there is a large amount of missing data. While preparing the data, I impute many of the missing values. However, some of the missing data is difficult to impute or it just doesn't make sense to impute. For this reason, I choose to work with XG Boost, an estimator that can handle missing data. 
